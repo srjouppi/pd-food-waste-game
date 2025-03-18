@@ -36,6 +36,7 @@ h2 {
 }
 h5{
     font-weight:600;
+    font-size:inherit;
 }
 .header {
     padding-top: 3em;
