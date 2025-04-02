@@ -16,7 +16,7 @@ body {
 h1,
 h2 {
     text-align: center;
-    font-family: "Inter", sans-serif;
+    font-family: "Asap", sans-serif;
     font-weight: 700;
     margin: 0;
     padding: 0;
@@ -43,7 +43,10 @@ h5{
     padding-bottom: 3em;
 }
 .indented {
-    padding-left:1em;
+    padding-left:2em;
+    font-size:inherit;
+    font-style:italic;
+    color:#7e7e7e;
 }
 /*
   Built-in class:
@@ -53,6 +56,9 @@ h5{
     font-style: italic;
 }
 
+ul{
+    padding-left:2em;
+}
 .written-in-ink {
     z-index: 3;
     font-size: 9pt;
@@ -120,29 +126,31 @@ h5{
 }
 
 h3 {
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
     font-size:1.2em;
     color:#0274be;
 }
 h4 {
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+    font-family: "Asap", sans-serif;
+    font-weight: 700;
     font-size:1.2em;
     /* color:#0274be; */
 }
 p {
-    font-size: 13pt;
-    color: #888;
-    line-height: 1.7em;
-    font-weight: lighter;
+    font-style: normal;
+    font-family:"Gelasio", serif;
+    font-size:1.2em;
+    color: rgb(56, 56, 56);
+    line-height: 32px;
+    font-weight: 400;
 }
 
 a {
-    font-weight: 700;
-    color: #aeba3c;
-    font-family: sans-serif;
-    text-decoration: none;
+    font-weight: 600;
+    color: #2a2a2a;
+    font-family: inherit;
+    text-decoration: underline;
 }
 
 .unclickable {
@@ -154,7 +162,7 @@ a {
 }
 
 a:hover {
-    color: black;
+    color: #a7a7a7;
 }
 
 @media screen and (prefers-reduced-motion: no-preference) {
@@ -217,8 +225,12 @@ img {
 */
 .choice a, .choice span {
     font-size: 15pt;
+    font-weight:400;
+    color:#7e7e7e;
 }
-
+.choice a:hover{
+    color:#0274be;
+}
 /* 
   Built-in class:
     The End # CLASS: end
