@@ -42,7 +42,9 @@ h5{
     padding-top: 3em;
     padding-bottom: 3em;
 }
-
+.indented {
+    padding-left:1em;
+}
 /*
   Built-in class:
     # author: Name
